@@ -1,0 +1,98 @@
+body {
+    background-color:#FAF0E6;
+cursor: cell;
+}
+title{
+  font-family: Algerian;
+  color:#FCCB1A;   
+background:#342809; 
+}
+h1 {
+text-align:center;
+font-size: 60px; 
+background:#FBA90A;
+color:#FC7307;
+font-family: Algerian;
+}
+h2 {
+ text-align:center;
+  color:#FCCB1A;  
+font-family: Algerian;
+background:#342809; 
+}
+div {
+  color: #FC600A;
+  background-color: #342B09;
+  text-align: center;
+  position: bottom;
+  background-size: 40px;
+  border-style: solid;
+  border-color:#342B09;
+  border-size:30px; }
+button {
+  background-color:#FB8604;
+  color:#342809;
+  padding: 5px 10px;
+font-family:Verdana;
+  cursor: pointer;
+  margin: 5px;
+position: center;
+}
+
+
+.img1{
+transform: translate(50px, 200px);
+float:right; 
+height:400px ;
+width:400px ;
+}
+.img2{
+float:left;
+transform: translate(-50px, 200px);
+height:400px ;
+width:400px ;
+
+}
+  
+
+
+
+p {
+  color:#FB8604;
+text-shadow: 3px 3px #342009;  
+font-family: Elephant;
+font-size:30px;
+}
+
+.img3{
+transform: translate(50px, 100px);
+ height:30% ;
+ width:30% ;
+ position: relative;
+  bottom: 5px; 
+}
+form{
+  background-color:rgb(248, 203, 53);
+  color:#ee5454;
+font-family: Courier; 
+font-size: 30px;
+}
+#answer{
+ color:#fae20a;  
+font-family:Algerian;
+font-size:20px;
+}
+button:hover{
+  transform: scale(2, 2);
+    animation: mymove 5s infinite;;
+}
+
+.img2:hover{
+   transform: scale(2, 2);
+    animation: mymove 5s infinite; }
+.img1:hover{
+   transform: scale(2, 2);
+    animation: mymove 5s infinite; }
+    .img3:hover{
+transform: scale(2, 2);
+    animation: mymove 5s infinite; }

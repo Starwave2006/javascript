@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Taco Numbers!</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <link rel="stylesheet" href="https://fonts.google.com/specimen/Rye#standard-styles">
+  <body>
+  
+
+
+<h1 id "1">Shayne's</br> Calculator🌮</h1>
+
+<h2>lets get started 🌮 </h2>
+ <form>First number: <input type="text" id="number1" /><br><br>
+ </hr>
+Second number: <input type="text" id="number2" 
+/><br><br></form>
+    <button type="button" onclick="multiply()">Multiply</button><button 
+    type="button" onclick="divide()">Divide</button>
+ <button type="button" onclick="add()">Add</button><button type="button" onclick="subtract()">Subtract</button>
+<p>The answer is: </p><div id="answer"></div>
+
+
+
+
+
+
+
+  <img class="img1" src="co pic 93.gif"alt silly catus >
+</br>
+ <img class="img2" src="co pic 93.gif"alt silly catus >
+</br>
+<img class="img3" src="co pic 97.gif"alt silly taco >
+ <hr>   
+ <div> Thanks For Your Attention!!!</div>   
+    <script src="script.js"></script>
+  
+  
+  
+  
+  
+  
+  </body>
+</html>
